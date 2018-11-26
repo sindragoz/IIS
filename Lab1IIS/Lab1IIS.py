@@ -18,4 +18,4 @@ print "1st class passengers: ",fcp,"%"
 print "Age median: ",ages[0]
 print "Age middle: ",ages[1]
 print "Pierce corellation: ", corr
-print popular_fem_name
+print "Most popular name: ", popular_fem_name

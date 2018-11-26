@@ -3,15 +3,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>1d410cfa-d21d-439c-93d7-d6d3bdfbf3dd</ProjectGuid>
+    <ProjectGuid>5ce5d655-a7dc-49f5-bd55-a25c03a46d01</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Lab1IIS.py</StartupFile>
+    <StartupFile>lab3.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>IISLab1</Name>
-    <RootNamespace>IISLab1</RootNamespace>
+    <Name>lab3</Name>
+    <RootNamespace>lab3</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -22,9 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="FileReader.py" />
-    <Compile Include="Lab1IIS.py" />
-    <Compile Include="PassengerStatistics.py" />
+    <Compile Include="lab3.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
